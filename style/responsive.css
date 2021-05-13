@@ -1,0 +1,65 @@
+@media screen and (max-width:870px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+
+    }
+
+
+    header .navbar {
+        margin-top: 1rem;
+        margin-right: 0rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-left: 0;
+    }
+
+    .manga-principal .container {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .manga-principal .titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2.2rem;
+    }
+
+    .manga-principal .botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botao {
+        margin-right: 0px;
+        margin-top: 10px
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .descricao {
+        width: 50%;
+    }
+
+
+}
