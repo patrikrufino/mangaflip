@@ -1,8 +1,8 @@
 /*Váriáveis*/
 :root {
     /*Tema de cores*/
-    --primary: #E50914;
-    --secondary: #141414;
+    --primary: #FA492D;
+    --secondary: #353232;
     --light: #fafafa;
     --grey-300: #AAA;
 }
@@ -121,11 +121,6 @@ header nav a:hover {
 }
 
 /*Carrosel*/
-.titulo-carrosel {
-    font-weight: 500;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
 
 .box-manga {
     height: 400px;
